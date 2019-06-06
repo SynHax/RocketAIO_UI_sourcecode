@@ -1,0 +1,8 @@
+module.exports = "<div class=\"alert-wrapper bg-color\">\r\n  <ng-container *ngIf=\"alert.title\">\r\n    <div class=\"section-header\">\r\n      <span class=\"section-label-header\">{{ alert.title }}</span>\r\n      <div class=\"btn-header-wrapper pull-right\">\r\n        <button class=\"btn btn-round btn-header close\" ngbTooltip=\"Close\" placement=\"bottom\" (click)=\"activeModal.dismiss('CROSS_CLICKED')\">\r\n          <span class=\"icon icon-light icon-add icon-no-hover\">\r\n            <i class=\"material-icons fS24\">close</i>\r\n          </span>\r\n        </button>\r\n      </div>\r\n    </div>\r\n  </ng-container>\r\n  <div class=\"section-content sub-section-divider\">\r\n    <div class=\"text-primary\">{{ alert.message }}</div>\r\n  </div>\r\n  <div class=\"section-footer text-right\">\r\n    <ng-container *ngIf=\"alert.hasCloseButton\">\r\n      <button class=\"btn btn-action btn-width-adjust\" (click)=\"activeModal.close('CLOSE_BTN_CLICKED')\">\r\n        <span class=\"\">Close</span>\r\n      </button>\r\n    </ng-container>\r\n  </div>\r\n</div>"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/alert-modal/alert-modal.component.html
+// module id = ./src/app/alert-modal/alert-modal.component.html
+// module chunks = main

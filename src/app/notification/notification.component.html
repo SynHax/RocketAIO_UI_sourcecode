@@ -1,0 +1,8 @@
+module.exports = "<ng-container *ngIf=\"notificationList && notificationList[mode]?.length > 0\">\r\n  <div class=\"notification-wrapper\">\r\n    <ng-container *ngFor=\"let notification of notificationList[mode]\">\r\n      <ngb-alert [type]=\"notification.type\" [dismissible]=\"notification.dismissible\">\r\n        <div class=\"notification\">{{ notification.message }}</div>\r\n      </ngb-alert>\r\n    </ng-container>\r\n  </div>\r\n</ng-container>"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/notification/notification.component.html
+// module id = ./src/app/notification/notification.component.html
+// module chunks = main

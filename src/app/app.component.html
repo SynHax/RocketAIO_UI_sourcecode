@@ -1,0 +1,8 @@
+module.exports = "<div class=\"app-wrapper bg-secondary text-primary\">\r\n  <div style=\"position: absolute; width: 80px; height: 75px; background: #fff;\">\r\n    <!-- Header Side Image -->\r\n    <span></span>\r\n  </div>\r\n  <div class=\"app-header-wrapper bg-primary\" (dblclick)=\"commonService.windowSizeHandler()\" style=\"background-color: #fff; box-shadow: none;\">\r\n    <app-header></app-header>\r\n  </div>\r\n\r\n  <div class=\"app-main-panel\">\r\n    <div *ngIf=\"!hasLicenseResponse; else processingResponse\">\r\n      <div class=\"material-loader\">\r\n        <div class=\"material-spinner\"></div>\r\n        <div class=\"loader-text\">Please Wait...</div>\r\n      </div>\r\n    </div>\r\n    <ng-template #processingResponse>\r\n      <div *ngIf=\"!commonService.activated; else splashScreen\">\r\n        <app-activation-screen></app-activation-screen>\r\n      </div>\r\n      <ng-template #splashScreen>\r\n        <app-splash-screen></app-splash-screen>\r\n      </ng-template>\r\n    </ng-template>\r\n  </div>\r\n</div>"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/app.component.html
+// module id = ./src/app/app.component.html
+// module chunks = main

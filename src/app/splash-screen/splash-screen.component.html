@@ -1,0 +1,8 @@
+module.exports = "<div *ngIf=\"!commonService.isSplashDataLoaded; else applicationHome\">\r\n  <div class=\"app-page-content-wrapper bg-primary\">\r\n    <app-notification mode=\"global\"></app-notification>\r\n    <div class=\"app-page-content\">\r\n      <div class=\"material-loader\">\r\n        <div class=\"material-spinner\"></div>\r\n        <div class=\"loader-text\">Please Wait...</div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<ng-template #applicationHome>\r\n  <app-home></app-home>\r\n</ng-template>\r\n"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/splash-screen/splash-screen.component.html
+// module id = ./src/app/splash-screen/splash-screen.component.html
+// module chunks = main

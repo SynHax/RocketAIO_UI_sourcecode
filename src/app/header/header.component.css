@@ -1,0 +1,8 @@
+module.exports = ".header-wrapper {\r\n  display: block;\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  width: 100%;\r\n  /* Position Vertically Center */\r\n  position: absolute;\r\n  top: 50%;\r\n  -webkit-transform: translate(0, -50%);\r\n          transform: translate(0, -50%);\r\n}\r\n\r\n.header-item {\r\n  display: inline-block;\r\n  width: calc(33.33% - 4px);\r\n  vertical-align: middle;\r\n}\r\n\r\n.profile-img {\r\n  display: inline-block;\r\n  border-radius: 100%;\r\n  height: 37px;\r\n  width: 37px;\r\n}\r\n\r\n.icon-person i {\r\n  font-size: 32px;\r\n  padding: 2px;\r\n}\r\n\r\n.profile-text {\r\n  display: inline-block;\r\n  padding-left: 10px;\r\n}\r\n\r\n.profile-text-welcome {\r\n  text-transform: uppercase;\r\n  font-size: 12px;\r\n  font-weight: 700;\r\n}\r\n\r\n.profile-text-name {\r\n  text-transform: uppercase;\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n}\r\n\r\n.header-item-left {\r\n  text-align: left;\r\n}\r\n\r\n.header-item-center {\r\n  text-align: center;\r\n}\r\n\r\n.header-item-right {\r\n  text-align: right;\r\n}\r\n\r\n.brand-logo {\r\n  display: inline-block;\r\n  max-height: 32px;\r\n}\r\n\r\n.main-label {\r\n  color: #ffab51;\r\n  font-size: 17px;\r\n  font-weight: 600;\r\n}\r\n"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/header/header.component.css
+// module id = ./src/app/header/header.component.css
+// module chunks = main

@@ -1,0 +1,8 @@
+module.exports = ".app-sidebar-wrapper {\r\n  display: inline-block;\r\n  position: absolute;\r\n  /* overflow: hidden; */\r\n  top: 0;\r\n  bottom: 0;\r\n  -webkit-app-region: drag;\r\n\r\n  width: 80px;\r\n  z-index: 1;\r\n  -webkit-box-shadow: 0px 15px 10px rgba(0,0,0,0.19), 10px 0px 20px rgba(0,0,0,0.23);\r\n          box-shadow: 0px 15px 10px rgba(0,0,0,0.19), 10px 0px 20px rgba(0,0,0,0.23);\r\n}\r\n\r\n.app-page-content-wrapper {\r\n  display: inline-block;\r\n  position: absolute;\r\n  overflow: hidden;\r\n  overflow-y: auto;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 80px;\r\n  right: 0;\r\n  z-index: 0;\r\n  background-image: url('logo-bg.de1ae522f5e403d3ea40.jpg');\r\n  background-position: center;\r\n  background-size: 100% 100%;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.app-page-content {\r\n  margin: 20px 50px;\r\n  /* 100% - height_of_footer - top_margin */\r\n  height: calc(100% - 101px);\r\n}\r\n\r\n.app-footer {\r\n  margin: 40px 20px 10px 20px;\r\n}"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/home/home.component.css
+// module id = ./src/app/home/home.component.css
+// module chunks = main

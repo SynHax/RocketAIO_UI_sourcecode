@@ -1,0 +1,8 @@
+module.exports = "<div class=\"footer-wrapper\">\r\n  <ng-container *ngIf=\"iconList && iconList.length\">\r\n    <div class=\"footer-content text-left\">\r\n      <ng-container *ngFor=\"let listItem of iconList\">\r\n        <span class=\"footer-item icon icon-gray\" [ngbTooltip]=\"listItem['media-alt']\" placement=\"top\">\r\n          <a class=\"footer-item-route clickable\" (click)=\"this.commonService.openExternal(listItem['media-url'])\">\r\n            <img class=\"custom-material-icons\" [src]=\"listItem['media-icon-path']\" [alt]=\"listItem['media-alt']\" />\r\n          </a>\r\n        </span>\r\n      </ng-container>\r\n    </div>\r\n  </ng-container>\r\n  <ng-container *ngIf=\"commonService.appDetails.appVersion\">\r\n    <div class=\"footer-content text-center app-details\" (click) = \"requestForUpdate()\">\r\n      <span class=\"app-version\" ngbTooltip=\"Click To Check For Updates\" placement=\"top\">Version - {{ commonService.appDetails.appVersion }}</span>\r\n    </div>\r\n  </ng-container>\r\n  <ng-container *ngIf=\"externalHelpLinks && externalHelpLinks.length\">\r\n    <div class=\"footer-content text-right\">\r\n      <ul class=\"help-links-wrapper\">\r\n        <li class=\"help-link\" *ngFor=\"let externalHelpLink of externalHelpLinks\">\r\n          <a class=\"help-url hover-secondary\" (click)=\"commonService.openExternal(externalHelpLink.helpLink)\">{{ externalHelpLink.helpText }}</a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </ng-container>\r\n</div>"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/footer/footer.component.html
+// module id = ./src/app/footer/footer.component.html
+// module chunks = main

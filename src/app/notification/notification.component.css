@@ -1,0 +1,8 @@
+module.exports = ".notification-wrapper {\r\n    position: absolute;\r\n    left: 20px;\r\n    bottom: 0;\r\n    z-index: 1000;\r\n    max-width: 50%;\r\n  }\r\n  "
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/notification/notification.component.css
+// module id = ./src/app/notification/notification.component.css
+// module chunks = main

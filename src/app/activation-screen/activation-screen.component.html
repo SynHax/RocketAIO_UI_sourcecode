@@ -1,0 +1,8 @@
+module.exports = "<div class=\"app-page-content-wrapper bg-primary\">\r\n  <app-notification mode=\"global\"></app-notification>\r\n  <div class=\"app-page-content content-center\">\r\n    <div style=\"width: 268px; position: absolute; bottom: 20px; left: 25%;\">\r\n      <div style=\"width: 100%;\">\r\n        <img src=\"assets/images/logo_sideways.png\" height=\"62px\" width=\"50%\"/>\r\n      </div>\r\n      <label class=\"section-label-header\" style=\"width: 100%; font-size: 18px; font-weight: 500; color: #ffab51;\"><span style=\"font-size: 18px; font-weight: 900;\">Rocket</span> AIO</label>\r\n      <form (ngSubmit)=\"activate()\">\r\n        <div class=\"section-content\">\r\n          <div class=\"mB10 input-container\">\r\n            <input type=\"text\" class=\"form-control license-input\" name=\"userName\" placeholder=\"LICENSE KEY\" [(ngModel)]=\"commonService.productKey\" />\r\n            <ng-container *ngIf=\"isActivating\">\r\n              <div class=\"material-loader\">\r\n                <div class=\"material-spinner material-spinner-small\"></div>\r\n              </div>\r\n            </ng-container>\r\n          </div>\r\n          <div class=\"mB10 btn-container\">\r\n            <button type=\"submit\" class=\"btn btn-submit btn-solid btn-no-styles text-center\" [disabled]=\"commonService.productKey === ''\">\r\n              <span>activate</span>\r\n            </button>\r\n          </div>\r\n          <div class=\"clearfix\"></div>\r\n        </div>\r\n      </form>\r\n    </div>\r\n  </div>\r\n</div>"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/activation-screen/activation-screen.component.html
+// module id = ./src/app/activation-screen/activation-screen.component.html
+// module chunks = main

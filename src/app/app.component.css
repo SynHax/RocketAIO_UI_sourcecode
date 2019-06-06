@@ -1,0 +1,8 @@
+module.exports = ".app-wrapper {\r\n  display: block;\r\n}\r\n\r\n.app-header-wrapper {\r\n  display: block;\r\n  position: absolute;\r\n  /* overflow: hidden; */\r\n  left: 80px;\r\n  right: 0;\r\n  height: 75px;\r\n  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);\r\n          box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);\r\n  z-index: 2;\r\n\r\n  -webkit-user-select: none;\r\n  -moz-user-select: none;\r\n   -ms-user-select: none;\r\n       user-select: none;\r\n  -webkit-app-region: drag;\r\n}\r\n\r\n.app-main-panel {\r\n  display: block;\r\n  position: absolute;\r\n  overflow: hidden;\r\n  left: 0;\r\n  right: 0;\r\n  top: 75px;\r\n  height: calc(100% - 75px);\r\n  z-index: 1;\r\n}\r\n"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/app.component.css
+// module id = ./src/app/app.component.css
+// module chunks = main

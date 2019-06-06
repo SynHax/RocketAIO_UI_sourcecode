@@ -1,0 +1,8 @@
+module.exports = ".app-page-content-wrapper {\r\n  display: inline-block;\r\n  position: absolute;\r\n  overflow: hidden;\r\n  overflow-y: auto;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  z-index: 0;\r\n\r\n  text-align: -webkit-center;\r\n}\r\n"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/splash-screen/splash-screen.component.css
+// module id = ./src/app/splash-screen/splash-screen.component.css
+// module chunks = main

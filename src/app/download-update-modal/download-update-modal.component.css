@@ -1,0 +1,8 @@
+module.exports = ".bg-color {\r\n    background-color: #ffab51;\r\n}\r\n\r\n.section-header {\r\n    border: none !important;\r\n}\r\n\r\n.section-label-header {\r\n    color: #fff;\r\n}\r\n\r\n.section-content.sub-section-divider {\r\n    border: none !important;\r\n}\r\n\r\n.text-primary {\r\n    color: #fff;\r\n}\r\n\r\n.btn {\r\n    color: #fff;\r\n    background-color: #f5479a;\r\n    border: none;\r\n}\r\n\r\n.btn:not(.btn-no-styles):hover {\r\n    background-image: -webkit-gradient(linear, left top, right top, from(#fd9ab6), to(#f5497a));\r\n    background-image: linear-gradient(to right, #fd9ab6, #f5497a);\r\n    color: #fff !important;\r\n}\r\n\r\ninput, textarea, select {\r\n    background-color: #fff;\r\n    border: none !important;\r\n    color: #888888;\r\n}"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/app/download-update-modal/download-update-modal.component.css
+// module id = ./src/app/download-update-modal/download-update-modal.component.css
+// module chunks = main
